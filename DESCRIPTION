@@ -16,8 +16,7 @@ BugReports: https://github.com/AmeliaMN/BLT/issues
 Imports: 
     dplyr,
     forecast,
-    imputeTS,
-    tibble
+    imputeTS
 Depends: 
     R (>= 3.5)
 LazyData: true
