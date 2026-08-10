@@ -1,0 +1,9 @@
+pandoc: 3.8.3
+pkgdown: 2.2.1
+pkgdown_sha: ~
+articles:
+  BLT: BLT.html
+last_built: 2026-08-10T20:43Z
+urls:
+  reference: https://ameliamn.github.io/BLT/reference
+  article: https://ameliamn.github.io/BLT/articles
