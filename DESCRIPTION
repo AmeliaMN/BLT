@@ -11,7 +11,7 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
-URL: https://github.com/AmeliaMN/BLT
+URL: https://github.com/AmeliaMN/BLT, https://ameliamn.github.io/BLT/
 BugReports: https://github.com/AmeliaMN/BLT/issues
 Imports: 
     dplyr,
