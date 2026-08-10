@@ -3,3 +3,4 @@
 export(AR1)
 export(perc_missing)
 export(perc_missing_tidy)
+importFrom(imputeTS,statsNA)
