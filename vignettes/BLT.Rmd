@@ -14,6 +14,39 @@ knitr::opts_chunk$set(
 )
 ```
 
+The BLT package provides helper functions to work with time series data on bacon, lettuce, and tomatoes. 
+
+
 ```{r setup}
 library(BLT)
+library(ggplot2)
+```
+
+
+One function is `AR1()`,
+
+```{r}
+AR1(bacon$value)
+AR1(lettuce$value)
+```
+
+We also might want to know the percentage of NAs in our time series,
+
+```{r}
+bacon |> 
+  perc_missing_tidy(value)
+
+lettuce |>
+  perc_missing_tidy(value)
+
+tomatoes |>
+  perc_missing_tidy(value)
+```
+
+So, lettuce has the greatest percentage of missing data. 
+
+```{r bacon_timeseries}
+library(ggplot2)
+ggplot(bacon) +
+  geom_line(aes(x = date, y = value))
 ```

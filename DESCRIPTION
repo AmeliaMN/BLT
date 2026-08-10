@@ -22,6 +22,7 @@ Depends:
 LazyData: true
 Suggests: 
     blsR,
+    ggplot2,
     knitr,
     rmarkdown
 VignetteBuilder: knitr
