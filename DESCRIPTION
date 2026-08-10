@@ -21,4 +21,7 @@ Depends:
     R (>= 3.5)
 LazyData: true
 Suggests: 
-    blsR
+    blsR,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
