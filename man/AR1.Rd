@@ -13,6 +13,14 @@ AR1(x)
 an Arima model
 }
 \description{
-This function is a wrapper around the forecast::Arima() function.
+This function is a wrapper around the \code{\link[forecast:Arima]{forecast::Arima()}} function.
 It creates a first-order autoregressive model with a constant term.
+The \link[forecast:Arima]{Arima()} function is itself a wrapper of
+the \link[stats:arima]{arima()} function.
+}
+\examples{
+(m1 <- AR1(LakeHuron))
+AIC(m1)
+(m2 <- AR1(bacon$value))
+
 }
