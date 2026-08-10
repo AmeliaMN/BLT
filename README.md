@@ -5,6 +5,7 @@
 
 <!-- badges: start -->
 
+[![R-CMD-check](https://github.com/AmeliaMN/BLT/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/AmeliaMN/BLT/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of BLT is to provide helper functions for time series data,
