@@ -14,3 +14,6 @@ BugReports: https://github.com/AmeliaMN/BLT/issues
 Imports: 
     forecast,
     imputeTS
+Depends: 
+    R (>= 3.5)
+LazyData: true
