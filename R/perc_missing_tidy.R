@@ -27,5 +27,5 @@ perc_missing_tidy <- function(df, column){
     dplyr::select({{ column }}) |>
     dplyr::pull()
   # sum(is.na(lettuce$value))/length(lettuce$value)
-  imputeTS::statsNA(x, print_only = FALSE)$percentage_NAs
+  statsNA(x, print_only = FALSE)$percentage_NAs
 }
