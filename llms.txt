@@ -1,7 +1,9 @@
 # BLT
 
-The goal of BLT is to provide helper functions for time series data,
-particularly data on bacon, lettuce and tomatoes.
+The BLT package is a toy package associated with the
+[CodeYouCanBankOn](https://github.com/AmeliaMN/CodeYouCanBankOn)
+workshop. The goal of BLT is to provide helper functions for time series
+data, particularly data on bacon, lettuce and tomatoes.
 
 ## Installation
 
