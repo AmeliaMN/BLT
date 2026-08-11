@@ -7,16 +7,16 @@ that accepts tidy arguments
 ## Usage
 
 ``` r
-perc_missing_tidy(dataset, variable)
+perc_missing_tidy(df, column)
 ```
 
 ## Arguments
 
-- dataset:
+- df:
 
   a dataset
 
-- variable:
+- column:
 
   a variable within that dataset, ideally a time series
 
@@ -28,16 +28,8 @@ a tibble containing the percent of the variable that was missing
 
 ``` r
 bacon |> perc_missing_tidy(value)
-#> [1] "big dataset"
-#> # A tibble: 1 × 1
-#>   perc 
-#>   <chr>
-#> 1 0.84%
+#> [1] "0.84%"
 
 lettuce |> perc_missing_tidy(value)
-#> [1] "big dataset"
-#> # A tibble: 1 × 1
-#>   perc 
-#>   <chr>
-#> 1 34.5%
+#> [1] "34.5%"
 ```
