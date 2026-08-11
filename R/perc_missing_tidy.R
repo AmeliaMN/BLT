@@ -15,6 +15,10 @@
 #'
 #' lettuce |> perc_missing_tidy(value)
 perc_missing_tidy <- function(dataset, variable){
+  if(dim(dataset)[1] > 100){
+    print("big dataset")
+  }
+
   var <- substitute(variable)
   var_eval <- eval(var, envir = dataset)
   na_stats <- imputeTS::statsNA(var_eval, print_only = FALSE)
