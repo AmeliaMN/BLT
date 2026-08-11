@@ -15,6 +15,6 @@
 #' AIC(m1)
 #' (m2 <- AR1(bacon$value))
 #'
-AR1 <- function(x){
+AR1 <- function(x) {
   forecast::Arima(x, order = c(1, 0, 0), include.constant = TRUE)
 }
