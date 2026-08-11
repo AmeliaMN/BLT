@@ -4,12 +4,12 @@
 \alias{perc_missing_tidy}
 \title{A tidy version of perc_missing}
 \usage{
-perc_missing_tidy(dataset, variable)
+perc_missing_tidy(df, column)
 }
 \arguments{
-\item{dataset}{a dataset}
+\item{df}{a dataset}
 
-\item{variable}{a variable within that dataset, ideally a time series}
+\item{column}{a variable within that dataset, ideally a time series}
 }
 \value{
 a tibble containing the percent of the variable that was missing
