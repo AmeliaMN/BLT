@@ -42,7 +42,7 @@ We also might want to know the percentage of NAs in our time series,
 
 ``` r
 
-bacon |> 
+bacon |>
   perc_missing_tidy(value)
 #> [1] "0.84%"
 
