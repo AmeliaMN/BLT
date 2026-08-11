@@ -44,6 +44,7 @@ We also might want to know the percentage of NAs in our time series,
 
 bacon |> 
   perc_missing_tidy(value)
+#> [1] "big dataset"
 #> # A tibble: 1 × 1
 #>   perc 
 #>   <chr>
@@ -51,6 +52,7 @@ bacon |>
 
 lettuce |>
   perc_missing_tidy(value)
+#> [1] "big dataset"
 #> # A tibble: 1 × 1
 #>   perc 
 #>   <chr>
@@ -58,6 +60,7 @@ lettuce |>
 
 tomatoes |>
   perc_missing_tidy(value)
+#> [1] "big dataset"
 #> # A tibble: 1 × 1
 #>   perc 
 #>   <chr>

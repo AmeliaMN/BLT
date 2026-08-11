@@ -28,12 +28,14 @@ a tibble containing the percent of the variable that was missing
 
 ``` r
 bacon |> perc_missing_tidy(value)
+#> [1] "big dataset"
 #> # A tibble: 1 × 1
 #>   perc 
 #>   <chr>
 #> 1 0.84%
 
 lettuce |> perc_missing_tidy(value)
+#> [1] "big dataset"
 #> # A tibble: 1 × 1
 #>   perc 
 #>   <chr>
