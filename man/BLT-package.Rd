@@ -12,6 +12,7 @@ This is a demo package for the "Code you can bank on" workshop at the Federal Re
 Useful links:
 \itemize{
   \item \url{https://github.com/AmeliaMN/BLT}
+  \item \url{https://ameliamn.github.io/BLT/}
   \item Report bugs at \url{https://github.com/AmeliaMN/BLT/issues}
 }
 
