@@ -1,5 +1,3 @@
-
-
 #' A tidy version of perc_missing
 #'
 #' A wrapper around [imputeTS::statsNA] that accepts tidy arguments
@@ -18,15 +16,14 @@
 #   if(dim(dataset)[1] > 100){
 #     print("big dataset")
 #   }
-#
+#' #
 #   var <- substitute(variable)
 #   var_eval <- eval(var, envir = dataset)
 #   na_stats <- imputeTS::statsNA(var_eval, print_only = FALSE)
 #   tibble_perc <- tibble::tibble(perc = na_stats$percentage_NAs)
 #   return(tibble_perc)
 # }
-
-perc_missing_tidy <- function(df, column){
+perc_missing_tidy <- function(df, column) {
   x <- df |>
     dplyr::select({{ column }}) |>
     dplyr::pull()

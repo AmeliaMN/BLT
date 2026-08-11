@@ -7,18 +7,21 @@ test_that("check coefficients", {
 })
 
 test_that("AR1 is appropriate class", {
-  expect_equal(class(m1),
-               c("fc_model",  "forecast_ARIMA", "ARIMA", "Arima"))
+  expect_equal(
+    class(m1),
+    c("fc_model", "forecast_ARIMA", "ARIMA", "Arima")
+  )
 })
 
 
-
 test_that("names of AR1 output are as expected", {
-  expect_named(m1, c("coef",      "sigma2",    "var.coef",  "mask",
-                     "loglik",  "aic",       "arma",     "residuals",
-                     "call",      "series", "code",      "n.cond",
-                     "nobs",     "model",    "aicc", "bic",
-                     "x",         "fitted"))
+  expect_named(m1, c(
+    "coef", "sigma2", "var.coef", "mask",
+    "loglik", "aic", "arma", "residuals",
+    "call", "series", "code", "n.cond",
+    "nobs", "model", "aicc", "bic",
+    "x", "fitted"
+  ))
 })
 
 test_that("output of AR1 is as expected", {

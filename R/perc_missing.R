@@ -11,7 +11,7 @@
 #' perc_missing(bacon$value)
 #' perc_missing(lettuce$value)
 #' perc_missing(tomatoes$value)
-perc_missing <- function(x){
+perc_missing <- function(x) {
   # sum(is.na(lettuce$value))/length(lettuce$value)
   statsNA(x, print_only = FALSE)$percentage_NAs
 }
