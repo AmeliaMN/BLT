@@ -18,7 +18,7 @@ a tibble containing the percent of the variable that was missing
 A wrapper around \link[imputeTS:statsNA]{imputeTS::statsNA} that accepts tidy arguments
 }
 \examples{
-bacon |> perc_missing_tidy(value)
+tomatoes |> perc_missing_tidy(value)
 
 lettuce |> perc_missing_tidy(value)
 }

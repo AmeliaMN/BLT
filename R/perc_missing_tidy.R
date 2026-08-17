@@ -9,7 +9,7 @@
 #' @export
 #'
 #' @examples
-#' bacon |> perc_missing_tidy(value)
+#' tomatoes |> perc_missing_tidy(value)
 #'
 #' lettuce |> perc_missing_tidy(value)
 perc_missing_tidy <- function(dataset, variable){
