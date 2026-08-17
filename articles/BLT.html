@@ -93,15 +93,24 @@ series,</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">bacon</span> <span class="op">|&gt;</span></span>
 <span>  <span class="fu"><a href="../reference/perc_missing_tidy.html">perc_missing_tidy</a></span><span class="op">(</span><span class="va">value</span><span class="op">)</span></span>
-<span><span class="co">#&gt; [1] "0.84%"</span></span>
+<span><span class="co">#&gt; <span style="color: #949494;"># A tibble: 1 × 1</span></span></span>
+<span><span class="co">#&gt;   perc </span></span>
+<span><span class="co">#&gt;   <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span></span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;">1</span> 0.84%</span></span>
 <span></span>
 <span><span class="va">lettuce</span> <span class="op">|&gt;</span></span>
 <span>  <span class="fu"><a href="../reference/perc_missing_tidy.html">perc_missing_tidy</a></span><span class="op">(</span><span class="va">value</span><span class="op">)</span></span>
-<span><span class="co">#&gt; [1] "34.5%"</span></span>
+<span><span class="co">#&gt; <span style="color: #949494;"># A tibble: 1 × 1</span></span></span>
+<span><span class="co">#&gt;   perc </span></span>
+<span><span class="co">#&gt;   <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span></span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;">1</span> 34.5%</span></span>
 <span></span>
 <span><span class="va">tomatoes</span> <span class="op">|&gt;</span></span>
 <span>  <span class="fu"><a href="../reference/perc_missing_tidy.html">perc_missing_tidy</a></span><span class="op">(</span><span class="va">value</span><span class="op">)</span></span>
-<span><span class="co">#&gt; [1] "2.52%"</span></span></code></pre></div>
+<span><span class="co">#&gt; <span style="color: #949494;"># A tibble: 1 × 1</span></span></span>
+<span><span class="co">#&gt;   perc </span></span>
+<span><span class="co">#&gt;   <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span></span></span>
+<span><span class="co">#&gt; <span style="color: #BCBCBC;">1</span> 2.52%</span></span></code></pre></div>
 <p>So, lettuce has the greatest percentage of missing data.</p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://ggplot2.tidyverse.org" class="external-link">ggplot2</a></span><span class="op">)</span></span>

@@ -44,15 +44,24 @@ We also might want to know the percentage of NAs in our time series,
 
 bacon |>
   perc_missing_tidy(value)
-#> [1] "0.84%"
+#> # A tibble: 1 × 1
+#>   perc 
+#>   <chr>
+#> 1 0.84%
 
 lettuce |>
   perc_missing_tidy(value)
-#> [1] "34.5%"
+#> # A tibble: 1 × 1
+#>   perc 
+#>   <chr>
+#> 1 34.5%
 
 tomatoes |>
   perc_missing_tidy(value)
-#> [1] "2.52%"
+#> # A tibble: 1 × 1
+#>   perc 
+#>   <chr>
+#> 1 2.52%
 ```
 
 So, lettuce has the greatest percentage of missing data.
