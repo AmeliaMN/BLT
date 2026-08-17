@@ -5,6 +5,7 @@
 #'
 #' @param data Default dataset to use for plot
 #' @param mapping set of aesthetic mappings created by aes()
+#' @param ... Additional arguments to be passed to [imputeTS::ggplot_na_distribution]
 #'
 #' ggplot_na_distribution() understands the x aesthetic.
 #'

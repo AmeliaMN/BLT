@@ -19,16 +19,19 @@ Imports:
     ggplot2,
     imputeTS,
     rlang,
-    testdat,
-    tibble,
-    vdiffr
+    tibble
 Depends: 
     R (>= 3.5)
 LazyData: true
 Suggests: 
     blsR,
+    dplyr,
     knitr,
+    lubridate,
     rmarkdown,
-    testthat (>= 3.0.0)
+    stringr,
+    testdat,
+    testthat (>= 3.0.0),
+    vdiffr
 VignetteBuilder: knitr
 Config/testthat/edition: 3

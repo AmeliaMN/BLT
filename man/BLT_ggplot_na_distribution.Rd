@@ -9,7 +9,9 @@ BLT_ggplot_na_distribution(data, mapping = aes(), ...)
 \arguments{
 \item{data}{Default dataset to use for plot}
 
-\item{mapping}{set of aesthetic mappings created by aes()
+\item{mapping}{set of aesthetic mappings created by aes()}
+
+\item{...}{Additional arguments to be passed to \link[imputeTS:ggplot_na_distribution]{imputeTS::ggplot_na_distribution}
 
 ggplot_na_distribution() understands the x aesthetic.}
 }
