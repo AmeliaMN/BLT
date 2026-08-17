@@ -4,6 +4,8 @@
 
 - [`AR1()`](https://ameliamn.github.io/BLT/reference/AR1.md) :
   First-order autoregressive model
+- [`BLT_ggplot_na_distribution()`](https://ameliamn.github.io/BLT/reference/BLT_ggplot_na_distribution.md)
+  : Wrapper around ggplot_na_distribution with aesthetics
 - [`bacon`](https://ameliamn.github.io/BLT/reference/bacon.md) : FRED
   Bacon data
 - [`lettuce`](https://ameliamn.github.io/BLT/reference/lettuce.md) :
