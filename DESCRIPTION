@@ -15,16 +15,16 @@ URL: https://github.com/AmeliaMN/BLT, https://ameliamn.github.io/BLT/
 BugReports: https://github.com/AmeliaMN/BLT/issues
 Imports: 
     cli,
-    dplyr,
     forecast,
+    ggplot2,
     imputeTS,
+    rlang,
     tibble
 Depends: 
     R (>= 3.5)
 LazyData: true
 Suggests: 
     blsR,
-    ggplot2,
     knitr,
     rmarkdown,
     testthat (>= 3.0.0)
