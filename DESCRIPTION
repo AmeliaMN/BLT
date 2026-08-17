@@ -19,7 +19,8 @@ Imports:
     ggplot2,
     imputeTS,
     rlang,
-    tibble
+    tibble,
+    vdiffr
 Depends: 
     R (>= 3.5)
 LazyData: true
