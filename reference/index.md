@@ -8,6 +8,8 @@
   : Wrapper around ggplot_na_distribution with aesthetics
 - [`bacon`](https://ameliamn.github.io/BLT/reference/bacon.md) : FRED
   Bacon data
+- [`bacon_no_date`](https://ameliamn.github.io/BLT/reference/bacon_no_date.md)
+  : FRED Bacon data– no dates
 - [`lettuce`](https://ameliamn.github.io/BLT/reference/lettuce.md) :
   FRED Lettuce data
 - [`perc_missing()`](https://ameliamn.github.io/BLT/reference/perc_missing.md)

@@ -27,11 +27,11 @@ a tibble containing the percent of the variable that was missing
 ## Examples
 
 ``` r
-bacon |> perc_missing_tidy(value)
+tomatoes |> perc_missing_tidy(value)
 #> # A tibble: 1 × 1
 #>   perc 
 #>   <chr>
-#> 1 0.84%
+#> 1 2.52%
 
 lettuce |> perc_missing_tidy(value)
 #> # A tibble: 1 × 1

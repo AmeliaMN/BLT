@@ -19,6 +19,11 @@ BLT_ggplot_na_distribution(data, mapping = aes(), ...)
 
   set of aesthetic mappings created by aes()
 
+- ...:
+
+  Additional arguments to be passed to
+  [imputeTS::ggplot_na_distribution](https://SteffenMoritz.github.io/imputeTS/reference/ggplot_na_distribution.html)
+
   ggplot_na_distribution() understands the x aesthetic.
 
 ## Value
