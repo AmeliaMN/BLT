@@ -3,7 +3,7 @@ pkgdown: 2.2.1
 pkgdown_sha: ~
 articles:
   BLT: BLT.html
-last_built: 2026-08-18T14:10Z
+last_built: 2026-08-18T14:50Z
 urls:
   reference: https://ameliamn.github.io/BLT/reference
   article: https://ameliamn.github.io/BLT/articles
