@@ -1,4 +1,4 @@
-set_testdata(bacon)
+# set_testdata(bacon)
 
 test_that("bacon data passes", {
     expect_values(series_id, "APU0000704111")
