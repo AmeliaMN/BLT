@@ -9,7 +9,7 @@ test_that("check coefficients", {
 test_that("AR1 is appropriate class", {
   expect_equal(
     class(m1),
-    c("forecast_ARIMA", "ARIMA", "Arima")
+    c("fc_model", "forecast_ARIMA", "ARIMA", "Arima")
   )
 })
 
